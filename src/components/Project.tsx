@@ -28,7 +28,7 @@ function Project({arr, imgS, imgL, title, btn1, btn2} : ProjectProps) {
             {arr.map(item => <ProjectSkill skill={item} key={item}/>)}
         </div>
         </div>
-        <div className={`${hovered ? 'absolute top-20 flex-col left-1/2 -translate-x-1/2' : ''} flex items-center gap-7.5 lg:none`}>
+        <div className={`${hovered ? 'absolute top-20 flex-col left-1/2 -translate-x-1/2' : ''} flex items-center gap-7.5 lg:hidden`}>
             <p className="text-base text-white uppercase font-bold tracking-wider relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-green after:-bottom-2.5 after:left-0 ">{btn1}</p>
             <p className="text-base text-white uppercase font-bold tracking-wider relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-green after:-bottom-2.5 after:left-0 ">{btn2}</p>
         </div>
