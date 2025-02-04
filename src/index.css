@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-Space-Grotesk: "Space Grotesk", "serif"; 
+
+  
+  --text-extra: 5.5rem;
+  --text-extra--line-height: 5.5rem; 
+  --text-extra--letter-spacing: -0.15625rem;  
+
+  --text-large: 3rem;
+  --text-large--line-height: 3.5rem; 
+  --text-large--letter-spacing: -0.09375rem;  
+  
+  --text-medium: 1.5rem;
+  --text-medium--line-height: 2rem;  
+
+  --text-body: 1.125rem;
+  --text-body--line-height: 1.75rem; 
+
+  --color-black: #151515;
+  --color-darkGrey: #242424;
+  --color-green: #4ee1a0;
+  --color-grey: #d9d9d9; 
+
+  --breakpoint-lg: 90rem;
+}
